@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@hotwired/turbo-rails": "^7.1.1",
+    "axios": "^0.26.1",
+    "esbuild": "^0.14.31",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.3.0",
+    "remount": "^0.11.0",
+    "styled-components": "^5.3.5"
+  },
+  "scripts": {
+    "build": "esbuild --bundle app/javascript/application.js --outfile=app/assets/javascripts/application.js",
+    "watch": "esbuild --watch --bundle app/javascript/application.js  --outfile=app/assets/javascripts/application.js"
+  }
+}
