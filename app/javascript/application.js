@@ -2,6 +2,6 @@
 // import "@hotwired/turbo-rails"
 // import "controllers"
 // import './test'
-// import "./Index.jsx"
+import "./Index.jsx"
 
 
