@@ -1,5 +1,5 @@
 import FetchUrl  from './main'
 
-// Promise.resolve(FetchUrl()).then(data => {
-//         console.log(data);
-//     })
+Promise.resolve(FetchUrl()).then(data => {
+        data ;
+    })
